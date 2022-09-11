@@ -1,0 +1,13 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": ["npx create-react-app"],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "npx create-react-app": {
+      "name": "npx create-react-app",
+      "command": "npx create-react-app",
+      "runAtStart": true
+    }
+  }
+}
